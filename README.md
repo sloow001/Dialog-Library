@@ -73,15 +73,15 @@ function love.load()
 end
 
 function love.update(dt)
-    if love.keyboard.isDown("backspace") then
-        dialogue.load("dialogues/dialogue-second-test.json")
-    end
+
 end
 
 function love.keypressed(key)
     if key == "space" then
         dialogue.nextText()
         print(dialogue.getCurrentText())
+    elseif key == "backspace" then
+        dialogue.load("dialogues/dialogue-second-test.json")
     end
 end
 
