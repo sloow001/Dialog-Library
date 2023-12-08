@@ -31,6 +31,31 @@ function love.draw()
 end
 ```
 
+## Json archive structure
+For your dialog to work correctly, the structure of your json file must be like this:
+```json
+{
+    "dialogue": [
+        {
+            "character": "Character 1",
+            "text": "Hello, this is a dialogue box"
+        },
+        {
+            "character": "Character 2",
+            "text": "So, why u are here?"
+        },
+        {
+            "character": "Character 1",
+            "text": "Oh... u want to test this right?"
+        },
+        {
+            "character": "Character 2",
+            "text": "Okay, continue"
+        }
+    ]
+}
+```
+
 # Here is a simple example with 2 dialogues
 ```lua
 local dialogue = require "libraries.dialogue-lib"
