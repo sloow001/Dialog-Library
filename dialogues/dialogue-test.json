@@ -1,0 +1,20 @@
+{
+    "dialogue": [
+        {
+            "character": "Personagem 1",
+            "text": "Hello, this is a dialogue box"
+        },
+        {
+            "character": "Personagem 2",
+            "text": "So, why u are here?"
+        },
+        {
+            "character": "Personagem 1",
+            "text": "Oh... u want to test this right?"
+        },
+        {
+            "character": "Personagem 2",
+            "text": "Okay, continue"
+        }
+    ]
+}

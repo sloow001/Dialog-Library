@@ -1,0 +1,24 @@
+{
+    "dialogue": [
+        {
+            "character": "Bob",
+            "text": "Hello, welcome to another dialogue box test!"
+        },
+        {
+            "character": "Marcus",
+            "text": "uuuh... this is so boring"
+        },
+        {
+            "character": "Bob",
+            "text": "no! it's super cool!!! dont say that!!!!!!!!!!"
+        },
+        {
+            "character": "Marcus",
+            "text": "pff, u are dumb"
+        },
+        {
+            "character": "Bob",
+            "text": "NO IM NOT!!!"
+        }
+    ]
+}
